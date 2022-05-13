@@ -8,45 +8,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center"
+        android:layout_marginLeft="100dp"
         android:layout_marginTop="125dp"
         android:text="GPS &amp; LBS"
         android:textSize="50dp" />
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center">
-
-        <EditText
-            android:id="@+id/location"
-            android:layout_width="191dp"
-            android:layout_height="wrap_content"
-            android:hint="Enter Location" />
-
-        <Button
-            android:id="@+id/search"
-            android:layout_width="61dp"
-            android:layout_height="match_parent"
-            android:onClick="calcdestination"
-            android:text="Go" />
-    </LinearLayout>
-
-    <TextView
-        android:id="@+id/distance"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:textSize="20dp"
-        android:hint="Distance"
-        android:layout_gravity="center"/>
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
+        android:layout_marginLeft="150dp"
         android:layout_marginTop="175dp"
         android:text="getlocation" />
-
 </LinearLayout>
